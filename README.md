@@ -28,7 +28,11 @@ RMSE is in percentage points of annualised growth; a ratio below 1 beats the AR(
 | Gradient Boosting | 0.85 | 0.58 | 1.67 | 0.60 |
 | Random Forest | 0.85 | 0.61 | 1.57 | 0.63 |
 | SVR | **0.77** | 0.71 | 1.43 | 0.72 |
-| AR(1) RMSE (pp) | 1.64 | 23.79 | **1.45** | 8.96 |
+| *AR(1) (benchmark)* | *1.00* | *1.00* | ***1.00*** | *1.00* |
+
+> **Note:** AR(1) is the benchmark, so its ratio is 1.00 by definition. Its actual RMSE, in
+> percentage points, is 1.64 (2012–2019), 23.79 (2020–2021), 1.45 (2022 onwards) and 8.96 (full
+> sample). Bold marks the best model in each period.
 
 ![Relative RMSE](outputs/relative_rmse.png)
 
